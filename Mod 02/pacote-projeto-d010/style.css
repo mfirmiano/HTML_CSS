@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Droid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: rgb(107, 222, 182);
+}
+
+header{
+    background-image: linear-gradient(to top, #4A7524, #5BC202);
+    box-shadow: 4px 4px 4px rgba(60, 59, 59, 0.801);
+    margin: -8px -8px;
+}
+header > h1 {
+    color: rgba(255, 255, 255, 0.893);
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px gray;
+}
+
+header > h2{
+    color: lightgray;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    padding-top: 30px;
+    margin: auto;
+    text-shadow: 3px 3px 5px gray;
+}
+header > div{
+    margin: 9% 2%;
+}
+header > div > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    margin: -8.6% auto auto;
+    width: 600px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > h1{
+    font-family: 'Droid';
+    text-align: left;
+    color: #416620;
+    font-size: x-large;
+}
+
+main > section > h2{
+    font-family: 'Droid';
+    text-align: left;
+    color: #416620;
+    background-image: linear-gradient(to right, rgba(107, 222, 182, 0.474), #ffffff);
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 600px;
+    object-fit: cover;
+}
+
+section#vid{
+    background-color: #416620;
+    text-align: center;
+    width: 640.5px;
+    height: 390px;
+    margin: auto 20px auto -20.5px;
+}
+
+section#vid > iframe{
+    margin-top: 20px;
+}
+
+section#qam > h3{
+    color: white;
+    background-color: rgb(93, 155, 93);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+section#qam{
+    background-color: rgba(141, 204, 182, 0.985);
+    border-radius: 5px;
+}
+
+p{
+    text-indent: 1.5em; 
+    text-align: justify;
+    padding: 2px 8px 8px 8px;
+}
+
+ul{
+    list-style-type: '✔';
+    
+    
+}
+section#qam > div{
+    height: 150px;
+    display: inline-block;
+}
+
+strong{
+    color: #4A7524;
+}
+
+a{
+    text-decoration: none;
+    color: #4A7524;
+    font-weight: bold;
+}
+
+footer > p{
+    text-align: center;
+    background-color: #416620;
+    color: white;
+    font-weight: bold;
+    margin: 8px -8px -8px -8px;
+    padding-top: 8px;
+}
+
+main{
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.49);
+}
+section > p > a::after{
+    content: '✈';
+}
